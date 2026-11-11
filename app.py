@@ -12,6 +12,7 @@ sheet" feel (Aspen Plus-ish) rather than a conversational/chat-app look.
 import streamlit as st
 import numpy as np
 import pandas as pd
+import plotly.graph_objects as go
 
 from thermo_model import ThermoModel
 from power_law import (
